@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>POO</title>
+  </head>
+  <body>
+    <main class="principal">
+      <section class="conteudo-poo">
+        <h1 class="titulo-principal" id="titulo-pag">
+          Fundamentos da progamação orientada a objetos
+        </h1>
+        <ul>
+          <li>
+            <h3 class="topicos">Abstração</h3>
+            <p class="paragrafo">
+              <b class="negrito">Definição :</b> A abstração é o processo pelo
+              qual se isolam características de um objeto, considerando os que
+              tenham em comum certos grupos de objeto. Com isso, devemos nos
+              concentrar apenas no essencial, pois as abstrações devem ser
+              incompletas e imprecisas.
+            </p>
+            <p class="paragrafo">
+              <b class="negrito">Exemplo : </b>Uma fábrica de cadeiras pode
+              inicialmente pensar em uma cadeira na sua forma mais básica
+              (abstrata), ela teria ao menos pernas, assento e encosto. A partir
+              disto, ela poderia fabricar diversos tipos: cadeira de aula, de
+              praia etc. Ela poderia futuramente a cada novo tipo de cadeira ir
+              modificando de acordo com sua especifidade.
+            </p>
+            <div class="img-main">
+              <img
+                class="img-topicos"
+                src="./imgs/cadeiras .png"
+                alt="Abstração de uma cadeira"
+              />
+            </div>
+          </li>
+          <li>
+            <h3 class="topicos">Reúso</h3>
+            <p class="paragrafo">
+              Para alcançar este fundamento, a Orientação a Objetos provê
+              conceitos que visam facilitar sua aplicação. A linguagem Orientada
+              a objetos por si não é suficiente para se atingir a reusabilidade.
+              ALgumas formas para reutilização em POO:
+            </p>
+            <p class="paragrafo">
+              <b class="negrito">Herança :</b> Na herança é possível criar
+              classes a partir de outras classes. Assim ocorre então um
+              reaproveitamento de código, dados e comportamentos dessa chamda
+              classe mãe. Neste caso, a classe filha pode acrescentar o que for
+              necessário para si;
+            </p>
+            <p class="paragrafo">
+              <b class="negrito">Associação : </b>Na associação, uma classe pede
+              ajuda a outra para poder fazer o que ela não consegue fazer por si
+              só. Em vez de simplesmente repetir, em si, o código que está em
+              outra classe, a associação permite que uma classe forneça uma
+              porçao de código a outra.
+            </p>
+          </li>
+          <li>
+            <h3 class="topicos">Encapsulamento</h3>
+            <p class="paragrafo">
+              Com encapsulamento, podemos esconder a forma como algo foi feito,
+              dando a quem precisa apenas os resultados gerados. Outra
+              característica é a ocultação da informação, com finalidade de
+              evitar resultados indesejados, acessos indevidos, entre outros
+              problemas.
+            </p>
+            <div class="img-main">
+              <img
+                class="img-topicos"
+                src="./imgs/encapsulamento.png"
+                alt="Substâncias de uma cápsula e cápsulas"
+              />
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <div class="botoes">
+        <button class="bot-main">
+          <a
+            class="topicos"
+            target="_blank"
+            href="https://blog.cod3r.com.br/pilares-de-orientacao-a-objetos/#:~:text=O%20paradigma%20orientado%20a%20objetos,%2C%20polimorfismo%2C%20encapsulamento%20e%20abstra%C3%A7%C3%A3o."
+            >Para +</a
+          >
+        </button>
+
+        <button class="bot-main bot-inicio">
+          <a class="topicos" href="#titulo-pag">Início</a>
+        </button>
+      </div>
+
+      <section class="ouvidoria">
+        <p class="topicos">Ouvidoria</p>
+        <form action="">
+          <div>
+            <label class="topicos" for="opcao">Avalie-nos :</label> 1
+            <input type="radio" name="opcao" value="1" /> 2
+            <input type="radio" name="opcao" value="2" /> 3
+            <input type="radio" name="opcao" value="3" /> 4
+            <input type="radio" name="opcao" value="4" /> 5
+            <input type="radio" name="opcao" value="5" />
+          </div>
+          <div>
+            <label class="topicos" for="duvidas">Tire suas dúvidas : </label>
+            <input type="text" id="duvidas" name="duvidas" />
+          </div>
+          <div>
+            <label class="topicos" for="report-erros">Reporte erros : </label>
+            <input type="text" id="report-erros" name="report-erros" />
+          </div>
+          <button class="bot-main topicos bot-enviar">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

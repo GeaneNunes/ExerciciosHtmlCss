@@ -1,0 +1,125 @@
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 62.5%;
+}
+
+a {
+  color: #800000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #800000;
+  text-decoration: none;
+}
+
+button:hover,
+a:hover {
+  color: red;
+}
+
+html,
+body {
+  font-size: 1.7rem;
+}
+
+body {
+  background: linear-gradient(135deg, #cd5c5c, #ffa07a, #cd5c5c);
+}
+
+.principal {
+  background-color: #fef1ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 10%;
+  padding-top: 5%;
+  border-radius: 2rem;
+}
+
+.conteudo-poo {
+  width: 70vw;
+}
+
+.titulo-principal {
+  color: #800000;
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 6rem;
+}
+
+.topicos {
+  color: #800000;
+  padding: 5rem 0 2rem 0;
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+.paragrafo {
+  padding-block: 0.9rem;
+  text-align: justify;
+}
+
+.img-main {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-topicos {
+  width: 30rem;
+  border-radius: 1rem;
+}
+
+p {
+  line-height: 2.5rem;
+}
+
+.negrito {
+  color: #800000;
+  font-weight: 700;
+}
+
+.botoes {
+  margin: 9rem;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.bot-inicio {
+  margin-right: 7rem;
+}
+
+.bot-main {
+  background-color: #f5c4b0;
+  margin-left: 3rem;
+  border: none;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+}
+
+.ouvidoria label {
+  display: block;
+}
+
+input[type='text' i] {
+  padding-inline: 2rem;
+  width: 60vw;
+  height: 10rem;
+  border-radius: 0.9rem;
+  border: none;
+  background-color: #f5c4b0;
+}
+.ouvidoria {
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.bot-enviar {
+  margin-top: 2rem;
+}
